@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data (generated — never commit raw or processed data)
+data/seeds/*.csv
+data/raw/
+data/processed/
+*.duckdb
+
+# Env / secrets
+.env
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Test artefacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
